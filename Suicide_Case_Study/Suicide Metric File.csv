@@ -1,0 +1,152 @@
+Model Name, Suicide Classification Model
+Dataset,Suicide Dataset
+Date,2023-07-29
+,
+Model Metrics,
+----------------------------------,
+Model 1 - Decision Tree Classifier,
+Best Hyperparameters:,
+----------------------,
+Criterion, gini
+Max Depth,10
+Min Samples Leaf,4
+Min Samples Split,2
+,
+Classification Metrics:,
+------------------------,
+Accuracy,0.849
+Precision,0.8337
+Recall,0.862
+F1 Score,0.8476
+,
+Confusion Matrix:,
+------------------,
+Predicted Class,Actual Class  |---------------------|
+|  Class 0  |  Class 1  |,Class 0       |   1716    |    335    |
+,Class 1       |    269    |   1680    |
+,
+,
+,
+----------------------------------,
+,
+Model Metrics,
+----------------------------------,
+,
+Model 2 - Logistic Regression,
+Best Hyperparameters:,
+----------------------,
+C,10
+Penalty, l1
+Solver, liblinear
+,
+Classification Metrics:,
+------------------------,
+Accuracy,0.883
+Precision,0.86896
+Recall,0.89482
+F1 Score,0.8817
+,
+Confusion Matrix:,
+------------------,
+Predicted Class,Actual Class  |---------------------|
+|  Class 0  |  Class 1  |,Class 0       |   1788    |    263    |
+,Class 1       |    205    |   1744    |
+,
+,
+,
+----------------------------------,
+,
+Model 3 - Support Vector Machine,
+Best Hyperparameters:,
+----------------------,
+C,10
+Kernel, rbf
+,
+Classification Metrics:,
+------------------------,
+Accuracy,0.90575
+Precision,0.89898
+Recall,0.90867
+F1 Score,0.9038
+,
+Confusion Matrix:,
+------------------,
+Predicted Class,Actual Class  |---------------------|
+|  Class 0  |  Class 1  |,Class 0       |   1852    |    199    |
+,Class 1       |    178    |   1771    |
+,
+,
+,
+----------------------------------,
+,
+Model 4 - Gradient Boosting Classifier,
+Best Hyperparameters:,
+----------------------,
+Learning Rate,0.1
+Max Depth,3
+n_estimators,50
+,
+Classification Metrics:,
+------------------------,
+Accuracy,0.888
+Precision,0.87657
+Recall,0.89636
+F1 Score,0.88635
+,
+Confusion Matrix:,
+------------------,
+Predicted Class,Actual Class  |---------------------|
+|  Class 0  |  Class 1  |,Class 0       |   1805    |    246    |
+,Class 1       |    202    |   1747    |
+,
+,
+,
+----------------------------------,
+,
+Model 5 - Gaussian Naive Bayes,
+Best Hyperparameters:,
+----------------------,
+Priors, None
+Var Smoothing,1.00E-09
+,
+Classification Metrics:,
+------------------------,
+Accuracy,0.8375
+Precision,0.79617
+Recall,0.89584
+F1 Score,0.84307
+,
+Confusion Matrix:,
+------------------,
+Predicted Class,Actual Class  |---------------------|
+|  Class 0  |  Class 1  |,Class 0       |   1604    |    447    |
+,Class 1       |    203    |   1746    |
+,
+,
+,
+----------------------------------,
+,
+Model 6 - Random Forest Classifier,
+Best Hyperparameters:,
+----------------------,
+Max Depth: None,
+Min Samples Leaf,1
+Min Samples Split,5
+n_estimators,50
+,
+Classification Metrics:,
+------------------------,
+Accuracy,0.8915
+Precision,0.89433
+Recall,0.88148
+F1 Score,0.88786
+,
+Confusion Matrix:,
+------------------,
+Predicted Class,Actual Class  |---------------------|
+|  Class 0  |  Class 1  |,Class 0       |   1848    |    203    |
+,Class 1       |    231    |   1718    |
+,
+,
+,
+----------------------------------,
